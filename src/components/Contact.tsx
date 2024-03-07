@@ -40,7 +40,14 @@ const Contact: React.FC = () => {
     const data = new FormData(e.currentTarget);
 
     try {
-      const response = await axios.post(apiBaseUrl, data);
+      const response = await axios.post(
+        "https://portfolio-backend-y75o.onrender.com/send-email",
+        {
+          to: 'andalibquraishi14@gmail.com',
+          subject: data.get("subject"),
+          text: `From: ${data.get("name")}\nEmail: ${data.get("email")}\nMessage: ${data.get("message")}`,
+        }
+      );
       console.log(response);
       if (language === "DE") {
         toast.success(toastMessages.successEmailSent.de);
