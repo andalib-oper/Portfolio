@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
           text: `From: ${data.get("name")}\nEmail: ${data.get("email")}\nMessage: ${data.get("message")}`,
         }
       );
-      console.log(response);
+      console.log("responsing",response);
       if (language === "DE") {
         toast.success(toastMessages.successEmailSent.de);
       } else {
