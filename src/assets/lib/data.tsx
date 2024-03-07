@@ -10,22 +10,21 @@ import nextjsicon from "../../assets/icons/nextjsicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
-import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
+import githubicon from "../../assets/icons/githubicon.svg";
+import firebaseicon from "../../assets/icons/firebaseicon.svg";
+import postgresqlicon from "../../assets/icons/postgresqlicon.svg";
+import socketioicon from "../../assets/icons/socketioicon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import gizmo from '../../assets/img/gizmo.webp';
+import vision from "../../assets/img/vision.webp";
+import dopamine from "../../assets/img/dopamine.webp";
+import ultraqr from "../../assets/img/ultraqr.webp";
+import docbook from "../../assets/img/docbook.webp";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -40,12 +39,12 @@ import Privacy from "../../components/Privacy";
 export const headerIntroData = {
   title: {
     de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    en: "Hi, I'm Andalib Quraishi",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "React Native Developer ",
   description: {
     de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    en: "I'm Andalib, a react native developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for app development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
@@ -72,25 +71,25 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "Gizmo",
     description:
       "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "Gizmo 360, the Social ecommerce brand specialising in cutting-edge gadgets, presented us with an exciting challenge: 'Create an Mobile app that completely transforms the way people shop with social commerce, provide, and enjoy a personalised shopping experience.'",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "REST Api", icon: apiicon },
-      { name: "React", icon: reacticon },
       { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
-      { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
+      { name: "Github", icon: githubicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Firebase", icon: firebaseicon },
+      { name: "Socket", icon: socketioicon },
+      { name: "PostgresSQL", icon: postgresqlicon },
     ],
-    image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    image: gizmo,
+    deploymenturl: "https://vercel.com/andalib-opers-projects",
+    githuburl:
+      "https://github.com/andalib-operhttps://gitlab.com/andalibpeacockindia/gizmo360",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -101,29 +100,23 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Vision",
     description:
       "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "The founder of Vision Fleet Management approached us with an interesting task: they wanted to make their web-based software work on mobile phones. Since their managers are frequently away from their desks, they wanted to be able to keep an eye on their vehicle fleet using their phones. Our aim was to create a mobile app that's easy to use and makes sense, so checking up on the fleet is simple and convenient.",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      { name: "REST Api", icon: apiicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
+      { name: "Github", icon: githubicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Firebase", icon: firebaseicon },
+      { name: "PostgresSQL", icon: postgresqlicon },
     ],
-    image: silentmoonMockup,
+    image: vision,
     deploymenturl: "https://silentmoon-grpw.onrender.com/",
-    githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+    githuburl: "https://gitlab.com/andalibpeacockindia/vizfleet",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -134,28 +127,75 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "Dopamine",
     description:
       "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "Developing a user-friendly app that lets patients easily keep track of and share their pain experiences with their doctors. The old way of telling doctors about pain just wasn't working well and was missing important details. PainC realized things needed to change, and they came up with a smarter way to make sure doctors understand the full journey of each patient.",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      { name: "REST Api", icon: apiicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
+      { name: "Github", icon: githubicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Firebase", icon: firebaseicon },
+      { name: "PostgresSQL", icon: postgresqlicon },
     ],
-    image: instorMockup,
+    image: dopamine,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    githuburl: "https://gitlab.com/andalibpeacockindia/dopamine",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Ultra QR",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+    description_EN:
+      "By using a Ultra QR code scanner, individuals can swiftly Scan the tickets pointing their device's camera at the QR code, allowing for convenient access to content, services, or data embedded in the code. Ultra QR scanners are commonly made for smartphones, tablets, and dedicated scanning devices, making them a practical and efficient tool for seamless ticket scanning",
+    technologies: [
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Github", icon: githubicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Mongo DB", icon: mongodbicon },
+    ],
+    image: ultraqr,
+    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
+    githuburl: "https://gitlab.com/andalibpeacockindia/ultraqr",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Docbook",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+    description_EN:
+      "The DocBook app is a comprehensive and user-friendly application designed to streamline the management of patient records. With its intuitive interface, healthcare professionals can efficiently add, edit, view, and delete patient details. The app provides a robust platform for maintaining accurate and up-to-date records.",
+    technologies: [
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Figma", icon: figmaicon },
+      { name: "Github", icon: githubicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Firebase", icon: firebaseicon },
+    ],
+    image: docbook,
+    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
+    githuburl:
+      "https://gitlab.com/andalibpeacockindia/docbook-native/-/tree/dev?ref_type=heads",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -176,12 +216,12 @@ export const liveTickerData = {
 
 export const skillsDataWeb = [
   {
-    skillsTitle: "WebDevelopment",
+    skillsTitle: "AppDevelopement",
     skills: [
       {
-        title: "HTML",
-        hash: "#html",
-        icon: htmlicon,
+        title: "React Native",
+        hash: "#reactnative",
+        icon: reacticon,
         color: "#F1662A",
       },
       {
@@ -203,18 +243,6 @@ export const skillsDataWeb = [
         color: "#007ACC",
       },
       {
-        title: "React",
-        hash: "#React",
-        icon: reacticon,
-        color: "#61DAFB",
-      },
-      {
-        title: "Next.js",
-        hash: "#Next.js",
-        icon: [nextjsicon, nextjsiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
         title: "Node.js",
         hash: "#Node.js",
         icon: nodejsicon,
@@ -231,12 +259,6 @@ export const skillsDataWeb = [
         hash: "#MongoDB",
         icon: mongodbicon,
         color: "#449C45",
-      },
-      {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
       },
       {
         title: "Express",
@@ -270,32 +292,6 @@ export const skillsDataDesign = [
   },
 ] as const;
 
-export const skillsDataCMS = [
-  {
-    skillsTitle: "CMS",
-    skills: [
-      {
-        title: "WordPress",
-        hash: "#WordPress",
-        icon: wordpressicon,
-        color: "#21759B",
-      },
-      {
-        title: "Shopify",
-        hash: "#Shopify",
-        icon: shopifyicon,
-        color: "#7AB55C",
-      },
-      {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
-        color: "#4353FF",
-      },
-    ],
-  },
-] as const;
-
 export const navLinks = [
   { de: "Home", en: "Home", hash: "#home", icon: GoHome },
   { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
@@ -310,23 +306,23 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:andalibquraishi14@gmail.com",
+  text: "andalibquraishi14@gmail.com",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/andalib-quraishi-61ba96218/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/andalib-oper",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "andalibquraishi14@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
@@ -340,7 +336,7 @@ export const quotesData = [
   },
   {
     de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
+    en: `"The app is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
 
@@ -385,7 +381,7 @@ export const aboutMeData = {
     {
       title: "The Joy of Discovery as a Life Motto",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "My journey as an android developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
       icon: travelicon,
     },
   ],

@@ -128,14 +128,14 @@ const ProjectSlider: React.FC = () => {
                       </div>
                     </div>
                     <div className="buttons flex gap-10">
-                      <Button
+                      {/* <Button
                         label="Live Demo"
-                        link={project.deploymenturl}
-                        iconSVG={project.deploymenticon}
+                        // link={project.deploymenturl}
+                        // iconSVG={project.deploymenticon}
                         buttoncolor={project.colors.main}
                         iconcolor={project.colors.icon}
                         onClick={notifyServerRequest}
-                      />
+                      /> */}
                       <Button
                         label="Github Repository"
                         link={project.githuburl}
@@ -146,12 +146,12 @@ const ProjectSlider: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
+                  <div className="right-content relative h-[17rem] overflow-hidden rounded-xl w-[40%] transition-all shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
-                      className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
-                      `}
+                      // className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
+                      // `}
                     />
                   </div>
                 </SwiperSlide>
@@ -169,13 +169,13 @@ const ProjectSlider: React.FC = () => {
                   className="h-[35vh] w-full object-cover object-top rounded-3xl"
                 />
                 <div className="buttons flex gap-10 max-lg:flex-col">
-                  <Button
+                  {/* <Button
                     label="Live Demo"
                     link={project.deploymenturl}
                     iconSVG={project.deploymenticon}
                     buttoncolor={project.colors.main}
                     iconcolor={project.colors.icon}
-                  />
+                  /> */}
                   <Button
                     label="Github Repository"
                     link={project.githuburl}
